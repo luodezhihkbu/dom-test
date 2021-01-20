@@ -2,7 +2,6 @@ window.dom = {
   find(selector, scope) {
     return (scope || document).querySelectorAll(selector);
   },
-
   style(node, name, value) {
     if (arguments.length === 3) {
       node.style[name] = value;
